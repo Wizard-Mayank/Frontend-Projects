@@ -1,0 +1,59 @@
+*:not(#heading, #clearIcon, #deleteBtn, #editBtn) {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#newTask {
+  margin-bottom: 10px;
+}
+
+#heading {
+  background-color: rgb(247, 247, 181);
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  position: relative;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: rgb(247, 247, 181);
+  margin-bottom: 10px;
+}
+
+#clear {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  color: orange;
+  border: none;
+  background-color: rgb(247, 247, 181);
+  top: 0px;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  display: inline;
+  height: 30px;
+  width: 130px;
+  border-radius: 13px;
+}
+
+#clear:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: bisque;
+}
